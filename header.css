@@ -2,12 +2,13 @@
 .header{
     display: flex;
     width: 100%;
+    max-height: 60px;
     justify-content: space-between;
     align-items: center;
-    margin: 0;
+    margin: 0px 0 0 0 ;
     position: fixed;
-    top: 0;   
-    margin-top: -20px;
+    top: 0; 
+    bottom: 0;  
     background-color: white;
     
 } 
@@ -130,16 +131,17 @@
 
 .header-sub{
     display: flex;
-    margin: 50px 0 0 90px; 
+    margin: -60px 14px 10px 70px; 
     position: fixed;
     right: 0;
     left: 0;
-    background-color: white;   
+    max-height: 40px;
+    background-color: rgb(255, 255, 255);  
 }
 
 .header-sub-btn{
     height: 30px;
-    margin: 0 13px 0 0;
+    margin: 0 0px 40px 10px;
     padding: 10px;
     cursor: pointer;
     border: 0;
@@ -162,18 +164,18 @@
 }
 
 .header-sub img{
-    width: 20px;
-    height: 20px;
-    opacity: 1;
-    margin: 5px;
+    width: 10px;
+    height: 10px;
 }
 
 .header-sub-img{
     border: 0;
-    background-color: white;
+    background-color: transparent;
     cursor: pointer;
-    padding: 5px;
-    margin-top: -5px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    
+    
 }
 
 .header-sub-img:hover{
