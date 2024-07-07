@@ -1,0 +1,11 @@
+.thumbnails-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.thumbnails-container img{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 120px 0 0 90px;
+}
