@@ -8,6 +8,7 @@
     position: fixed;
     top: 0;
     background-color: white;
+    z-index: 200;
    
     
 }
@@ -125,4 +126,10 @@
 #you-relative:hover #you-absolute{
     opacity: 1;
     transition: 0.8s;
+}
+
+@media screen and (max-width: 785px){
+      .nav{
+        display: none;
+      }
 }

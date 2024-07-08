@@ -10,6 +10,7 @@
     top: 0; 
     bottom: 0;  
     background-color: white;
+    z-index: 200;
     
 } 
 
@@ -73,6 +74,13 @@
     
 }
 
+@media screen and (max-width: 600px){
+    .search-text{
+        display: none;
+    }
+
+}
+
 .search-btn{
     width: 50px;
     height: 34px;
@@ -86,6 +94,14 @@
     flex-shrink: 2;
 }
 
+@media screen and (max-width: 600px){
+    .search-btn{
+        background-color: white;
+        border: 0;
+        border-radius: 50%;
+    }
+
+}
 .voice-search-btn{
     width: 36px;
     height: 36px;
@@ -94,6 +110,13 @@
     border: 1px solid rgb(248, 248, 248);
     cursor: pointer;
     flex-shrink: 2;
+}
+
+@media screen and (max-width: 600px){
+    .voice-search-btn{
+        background-color: white;
+        border: 0;
+    }
 }
 
 .search-btn:hover,
@@ -135,12 +158,20 @@
 
 .header-sub{
     display: flex;
-    margin: -60px 14px 10px 70px; 
+    margin: -60px 0px 10px 70px; 
     position: fixed;
     right: 0;
     left: 0;
     max-height: 40px;
-    background-color: rgb(255, 255, 255);  
+    background-color: white;
+    z-index: 200;
+    flex-shrink: 1;  
+}
+
+@media screen and (max-width: 600px){
+    .header-sub{
+        margin-left: 20px;
+    }
 }
 
 .header-sub-btn{
@@ -178,6 +209,7 @@
     cursor: pointer;
     margin-left: 8px;
     margin-bottom: 8px;
+    margin-right: 6px;
     
     
 }
@@ -202,6 +234,7 @@
     padding: 5px;
     color: rgb(131, 131, 131);
     border: 1px solid rgb(82, 82, 82);
+    background-color: white;
     opacity: 0;
 }
 
@@ -222,6 +255,7 @@
     padding: 5px;
     color: rgb(131, 131, 131);
     border: 1px solid rgb(82, 82, 82);
+    background-color: white;
     opacity: 0;
 }
 
@@ -241,6 +275,7 @@
     padding: 5px;
     color: rgb(131, 131, 131);
     border: 1px solid rgb(82, 82, 82);
+    background-color: white;
     opacity: 0;
 }
 
@@ -260,6 +295,7 @@
     padding: 5px;
     color: rgb(131, 131, 131);
     border: 1px solid rgb(82, 82, 82);
+    background-color: white;
     opacity: 0;
 }
 
@@ -279,6 +315,7 @@
     padding: 5px;
     color: rgb(131, 131, 131);
     border: 1px solid rgb(82, 82, 82);
+    background-color: white;
     opacity: 0;
 }
 
@@ -286,6 +323,14 @@
     opacity: 1;
     transition: 0.8s;
 }
+
+
+@media screen and (max-width: 600px){
+    #history-relative{
+        display: none;
+    }
+}
+
 #gaming-relative{
     position: relative;
 }
@@ -298,6 +343,7 @@
     padding: 5px;
     color: rgb(131, 131, 131);
     border: 1px solid rgb(82, 82, 82);
+    background-color: white;
     opacity: 0;
 }
 
@@ -305,6 +351,14 @@
     opacity: 1;
     transition: 0.8s;
 }
+
+@media screen and (max-width: 700px){
+    #gaming-relative{
+        display: none;
+    }
+}
+
+
 #world-relative{
     position: relative;
 }
@@ -317,6 +371,7 @@
     padding: 5px;
     color: rgb(131, 131, 131);
     border: 1px solid rgb(82, 82, 82);
+    background-color: white;
     opacity: 0;
 }
 
@@ -324,6 +379,13 @@
     opacity: 1;
     transition: 0.8s;
 }
+
+@media screen and (max-width: 800px){
+    #world-relative{
+        display: none;
+    }
+}
+
 #ai-relative{
     position: relative;
 }
@@ -336,6 +398,7 @@
     padding: 5px;
     color: rgb(131, 131, 131);
     border: 1px solid rgb(82, 82, 82);
+    background-color: white;
     opacity: 0;
 }
 
@@ -343,6 +406,13 @@
     opacity: 1;
     transition: 0.8s;
 }
+
+@media screen and (max-width: 900px){
+    #ai-relative{
+        display: none;
+    }
+}
+
 #inventions-relative{
     position: relative;
 }
@@ -355,6 +425,7 @@
     padding: 5px;
     color: rgb(131, 131, 131);
     border: 1px solid rgb(82, 82, 82);
+    background-color: white;
     opacity: 0;
 }
 
@@ -362,6 +433,13 @@
     opacity: 1;
     transition: 0.8s;
 }
+
+@media screen and (max-width: 1000px){
+    #inventions-relative{
+        display: none;
+    }
+}
+
 #for-relative{
     position: relative;
 }
@@ -374,6 +452,7 @@
     padding: 5px;
     color: rgb(131, 131, 131);
     border: 1px solid rgb(82, 82, 82);
+    background-color: white;
     opacity: 0;
 }
 
@@ -381,6 +460,13 @@
     opacity: 1;
     transition: 0.8s;
 }
+
+@media screen and (max-width: 1100px){
+    #for-relative{
+        display: none;
+    }
+}
+
 #live-relative{
     position: relative;
 }
@@ -393,6 +479,7 @@
     padding: 5px;
     color: rgb(131, 131, 131);
     border: 1px solid rgb(82, 82, 82);
+    background-color: white;
     opacity: 0;
 }
 
@@ -400,6 +487,13 @@
     opacity: 1;
     transition: 0.8s;
 }
+
+@media screen and (max-width: 1200px){
+    #live-relative{
+        display: none;
+    }
+}
+
 #qasida-relative{
     position: relative;
 }
@@ -412,6 +506,7 @@
     padding: 5px;
     color: rgb(131, 131, 131);
     border: 1px solid rgb(82, 82, 82);
+    background-color: white;
     opacity: 0;
 }
 
@@ -419,6 +514,13 @@
     opacity: 1;
     transition: 0.8s;
 }
+
+@media screen and (max-width: 1300px){
+    #qasida-relative{
+        display: none;
+    }
+}
+
 #television-relative{
     position: relative;
 }
@@ -431,6 +533,7 @@
     padding: 5px;
     color: rgb(131, 131, 131);
     border: 1px solid rgb(82, 82, 82);
+    background-color: white;
     opacity: 0;
 }
 
@@ -438,6 +541,13 @@
     opacity: 1;
     transition: 0.8s;
 }
+
+@media screen and (max-width: 1330px){
+    #television-relative{
+        display: none;
+    }
+}
+
 #stream-relative{
     position: relative;
 }
@@ -450,6 +560,7 @@
     padding: 5px;
     color: rgb(131, 131, 131);
     border: 1px solid rgb(82, 82, 82);
+    background-color: white;
     opacity: 0;
 }
 
@@ -458,15 +569,42 @@
     transition: 0.8s;
 }
 
-#youtube-relatiove{
+@media screen and (max-width: 1900px){
+    #stream-relative{
+        display: none;
+    }
+}
+
+#next-relative{
+    position: relative;
+}
+
+#next-absolute{
+    position: absolute;
+    left: -5px;
+    top: 20px;
+    font-size: 12px;
+    padding: 5px;
+    color: rgb(131, 131, 131);
+    border: 1px solid rgb(82, 82, 82);
+    background-color: white;
+    opacity: 0;
+}
+
+#next-relative:hover #next-absolute{
+    opacity: 1;
+    transition: 0.8s;
+}
+
+#youtube-relative{
     position: relative;
 }
 
 
 #youtube-absolute{
     position: absolute;
-    left: 160px;
-    top: 21px;
+    left: 100px;
+    top: 37px;
     font-size: 12px;
     padding: 5px;
     color: rgb(131, 131, 131);
@@ -479,3 +617,4 @@
     transition: 0.8s;
 
 }
+
