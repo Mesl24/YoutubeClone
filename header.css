@@ -22,6 +22,10 @@
     
 }
 
+.left-section button{
+    border: 0;
+    background-color: white;
+}
 .youtube-logo{
     width: 90px;
     height: 90px;
@@ -184,3 +188,294 @@
 }
 
 
+/* Header and Sub header tooltip */
+
+#all-relative{
+    position: relative;
+}
+
+#all-absolute{
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    font-size: 12px;
+    padding: 5px;
+    color: rgb(131, 131, 131);
+    border: 1px solid rgb(82, 82, 82);
+    opacity: 0;
+}
+
+#all-relative:hover #all-absolute{
+    opacity: 1;
+    transition: opacity 0.8s;
+}
+
+#web-relative{
+    position: relative;
+}
+
+#web-absolute{
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    font-size: 12px;
+    padding: 5px;
+    color: rgb(131, 131, 131);
+    border: 1px solid rgb(82, 82, 82);
+    opacity: 0;
+}
+
+#web-relative:hover #web-absolute{
+    opacity: 1;
+    transition: 0.8s;
+}
+#source-relative{
+    position: relative;
+}
+
+#source-absolute{
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    font-size: 12px;
+    padding: 5px;
+    color: rgb(131, 131, 131);
+    border: 1px solid rgb(82, 82, 82);
+    opacity: 0;
+}
+
+#source-relative:hover #source-absolute{
+    opacity: 1;
+    transition: 0.8s;
+}
+#music-relative{
+    position: relative;
+}
+
+#music-absolute{
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    font-size: 12px;
+    padding: 5px;
+    color: rgb(131, 131, 131);
+    border: 1px solid rgb(82, 82, 82);
+    opacity: 0;
+}
+
+#music-relative:hover #music-absolute{
+    opacity: 1;
+    transition: 0.8s;
+}
+#history-relative{
+    position: relative;
+}
+
+#history-absolute{
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    font-size: 12px;
+    padding: 5px;
+    color: rgb(131, 131, 131);
+    border: 1px solid rgb(82, 82, 82);
+    opacity: 0;
+}
+
+#history-relative:hover #history-absolute{
+    opacity: 1;
+    transition: 0.8s;
+}
+#gaming-relative{
+    position: relative;
+}
+
+#gaming-absolute{
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    font-size: 12px;
+    padding: 5px;
+    color: rgb(131, 131, 131);
+    border: 1px solid rgb(82, 82, 82);
+    opacity: 0;
+}
+
+#gaming-relative:hover #gaming-absolute{
+    opacity: 1;
+    transition: 0.8s;
+}
+#world-relative{
+    position: relative;
+}
+
+#world-absolute{
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    font-size: 12px;
+    padding: 5px;
+    color: rgb(131, 131, 131);
+    border: 1px solid rgb(82, 82, 82);
+    opacity: 0;
+}
+
+#world-relative:hover #world-absolute{
+    opacity: 1;
+    transition: 0.8s;
+}
+#ai-relative{
+    position: relative;
+}
+
+#ai-absolute{
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    font-size: 12px;
+    padding: 5px;
+    color: rgb(131, 131, 131);
+    border: 1px solid rgb(82, 82, 82);
+    opacity: 0;
+}
+
+#ai-relative:hover #ai-absolute{
+    opacity: 1;
+    transition: 0.8s;
+}
+#inventions-relative{
+    position: relative;
+}
+
+#inventions-absolute{
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    font-size: 12px;
+    padding: 5px;
+    color: rgb(131, 131, 131);
+    border: 1px solid rgb(82, 82, 82);
+    opacity: 0;
+}
+
+#inventions-relative:hover #inventions-absolute{
+    opacity: 1;
+    transition: 0.8s;
+}
+#for-relative{
+    position: relative;
+}
+
+#for-absolute{
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    font-size: 12px;
+    padding: 5px;
+    color: rgb(131, 131, 131);
+    border: 1px solid rgb(82, 82, 82);
+    opacity: 0;
+}
+
+#for-relative:hover #for-absolute{
+    opacity: 1;
+    transition: 0.8s;
+}
+#live-relative{
+    position: relative;
+}
+
+#live-absolute{
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    font-size: 12px;
+    padding: 5px;
+    color: rgb(131, 131, 131);
+    border: 1px solid rgb(82, 82, 82);
+    opacity: 0;
+}
+
+#live-relative:hover #live-absolute{
+    opacity: 1;
+    transition: 0.8s;
+}
+#qasida-relative{
+    position: relative;
+}
+
+#qasida-absolute{
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    font-size: 12px;
+    padding: 5px;
+    color: rgb(131, 131, 131);
+    border: 1px solid rgb(82, 82, 82);
+    opacity: 0;
+}
+
+#qasida-relative:hover #qasida-absolute{
+    opacity: 1;
+    transition: 0.8s;
+}
+#television-relative{
+    position: relative;
+}
+
+#television-absolute{
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    font-size: 12px;
+    padding: 5px;
+    color: rgb(131, 131, 131);
+    border: 1px solid rgb(82, 82, 82);
+    opacity: 0;
+}
+
+#television-relative:hover #television-absolute{
+    opacity: 1;
+    transition: 0.8s;
+}
+#stream-relative{
+    position: relative;
+}
+
+#stream-absolute{
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    font-size: 12px;
+    padding: 5px;
+    color: rgb(131, 131, 131);
+    border: 1px solid rgb(82, 82, 82);
+    opacity: 0;
+}
+
+#stream-relative:hover #stream-absolute{
+    opacity: 1;
+    transition: 0.8s;
+}
+
+#youtube-relatiove{
+    position: relative;
+}
+
+
+#youtube-absolute{
+    position: absolute;
+    left: 160px;
+    top: 21px;
+    font-size: 12px;
+    padding: 5px;
+    color: rgb(131, 131, 131);
+    border: 1px solid rgb(82, 82, 82);
+    opacity: 0;
+}
+
+#youtube-relative:hover #youtube-absolute{
+    opacity: 1;
+    transition: 0.8s;
+
+}

@@ -18,8 +18,9 @@
     align-items: center;
     justify-content: center;
     width: 60px;
-    padding: 10px;
+    padding: 8px;
     height: 60px;
+    margin-right: 10px;
 }
 
 .nav-btn:hover{
@@ -36,4 +37,92 @@
 .nav-txt{
     font-size: 11px;
 
+}
+
+#home-relative{
+    position: relative;
+}
+
+
+#home-absolute{
+    position: absolute;
+    background-color: white;
+    left: 50px;
+    top: 45px;
+    font-size: 12px;
+    padding: 5px;
+    color: rgb(131, 131, 131);
+    border: 1px solid black;
+    opacity: 0;
+}
+
+#home-relative:hover #home-absolute{
+    opacity: 1;
+    transition: 0.8s;
+}
+
+#shorts-relative{
+    position: relative;
+}
+
+
+#shorts-absolute{
+    position: absolute;
+    background-color: white;
+    left: 50px;
+    top: 45px;
+    font-size: 12px;
+    padding: 5px;
+    color: rgb(131, 131, 131);
+    border: 1px solid black;
+    opacity: 0;
+}
+
+#shorts-relative:hover #shorts-absolute{
+    opacity: 1;
+    transition: 0.8s;
+}
+
+#subscriptions-relative{
+    position: relative;
+}
+
+
+#subscriptions-absolute{
+    position: absolute;
+    background-color: white;
+    left: 50px;
+    top: 45px;
+    font-size: 12px;
+    padding: 5px;
+    color: rgb(131, 131, 131);
+    border: 1px solid black;
+    opacity: 0;
+}
+
+#subscriptions-relative:hover #subscriptions-absolute{
+    opacity: 1;
+    transition: 0.8s;
+}
+
+#you-relative{
+    position: relative;
+}
+
+
+#you-absolute{
+    position: absolute;
+    background-color: white;
+    left: 50px;
+    top: 45px;
+    font-size: 12px;
+    padding: 5px;
+    color: rgb(131, 131, 131);
+    border: 1px solid black;
+    opacity: 0;
+}
+
+#you-relative:hover #you-absolute{
+    opacity: 1;
+    transition: 0.8s;
 }
